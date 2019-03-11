@@ -1,0 +1,14 @@
+﻿using MordorsCruelPlan.Main;
+using System;
+
+namespace MordorsCruelPlan
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var engine = new Engine();
+            engine.Run();
+        }
+    }
+}
